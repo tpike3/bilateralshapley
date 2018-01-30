@@ -14,7 +14,7 @@ with open('__init__.py', 'r') as fd:
                         fd.read(), re.MULTILINE).group(1)
 
 #get the readme file for the long description below--optional
-with open('README.rst', 'rb', encoding='utf-8') as f:
+with open('README.md', 'rb', encoding='utf-8') as f:
     readme = f.read()
 
 # see https://github.com/pypa/sampleproject/blob/master/setup.py for explanation of each parameter and links
