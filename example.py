@@ -39,9 +39,13 @@ class TestModel(Model):
     def execution(self):
         testnet = BSV(self.schedule.agents, "power", "affinity", verbose = False)
         return testnet    
+'''
+THIS CALLS AND RUNS THE MAIN CLASSES FUNCTIONS
+'''
 
-
-test = TestModel(500, 20, 100, 100)
+#call the TestModel Class
+test = TestModel(500, 20, 100, 100) #parameters are number of agents, max affinity value, max economic value and max military
+#execute the bilateral shapley value
 test = test.execution()
 print ("Numer of Groups: ", len(test.result))
 print ("Group list: ", test.result)
