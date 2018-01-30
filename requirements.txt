@@ -1,0 +1,12 @@
+certifi==2018.1.18
+decorator==4.2.1
+Mesa==0.8.3
+networkx==2.1
+numpy==1.14.0
+pandas==0.22.0
+python-dateutil==2.6.1
+pytz==2017.3
+six==1.11.0
+tornado==4.5.3
+tqdm==4.19.5
+wincertstore==0.2
