@@ -137,13 +137,6 @@ In order to reduce the computational burden and prevent the possibility of an in
 ## Happy Modeling!
 
 
-This document is a work in progress. If you see any errors, exclusions
-or have any problems please contact
-`us <https://github.com/projectmesa/mesa/issues>`__.
-
-``virtual environment``:
-http://docs.python-guide.org/en/latest/dev/virtualenvs/
-
 [2013] Abdollahian, Mark, Yang Zinig, and Hal Nelson. 2013. “Techno-Social Energy Infrastructure Siting : Sustainable Energy Modeling Programming ( SEMPro ).” Journal of Artifical Socieities and Simulation 16 (3): 1–12.
 
 [1995] Ketchpel, S P. 1995. “Coalition Formation among Autonomous Agents.” From Reaction to Cognition, no. 957: 73–88.
