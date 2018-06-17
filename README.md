@@ -13,6 +13,10 @@ To assess how different agents may coalesce into groups.
 
 The Bilateral Shapley module uses networkx 2.0
 
+## Installation 
+
+    pip install git+https://github.com/tpike3/bilateralshapley.git
+
 ## Implementation
 
     from BilateralShapley import BSV
