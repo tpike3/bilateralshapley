@@ -19,7 +19,7 @@ with open('README.md', 'rb', encoding='utf-8') as f:
 
 # see https://github.com/pypa/sampleproject/blob/master/setup.py for explanation of each parameter and links
 setup(
-    name='Bilateral Shapley',
+    name='bilateralshapley',
     version=version,
     description="Employs Bilateral Shapley Value from coalition game theory as a tool to assess agent coalition formation",
     long_description=readme,
@@ -38,11 +38,11 @@ setup(
         'Natural Language :: English',
     ],
     keywords='agent based modeling model ABM simulation multi-agent coaltion game theory',
-    py_modules = ["BilateralShapley", "example"],
+    py_modules = ["bilateralshapley", "example"],
     #for more elaborate projects with directories of files such as tests etc
     #packages=find_packages(),
     #package_data={'mesa': ['visualization/templates/*.html', 'visualization/templates/css/*',
     #                       'visualization/templates/fonts/*', 'visualization/templates/js/*']},
     include_package_data=True,
-    install_requires=['networkx','mesa'],
+    install_requires=['networkx'],
 )

@@ -1,5 +1,5 @@
 # Bilateral Shapley
-Creates a package of the bilateral shapley value from coalition game theory for use in MESA
+Creates a package of the bilateral shapley value from coalition game theory. Package is typically used with MESA, python's agent based model package (MESA 0.8.3 or greater).
 
 ## What is the Bilateral Shapley Value?
 
@@ -11,15 +11,17 @@ To assess how different agents may coalesce into groups.
 
 ## Requirements
 
-The Bilateral Shapley module uses networkx 2.0
+The Bilateral Shapley module requires networkx 2.0 or greater 
 
 ## Installation 
 
-    pip install git+https://github.com/tpike3/bilateralshapley.git
+    pip install bilateralshapley
+or
+    pip install git+https://github.com/tpike3/bilateralshapley.git 
 
 ## Implementation
 
-    from BilateralShapley import BSV
+    from bilateralshapley import BSV
 
     coalition = BSV(agents, power_attribute, preference_attribute, 
                 efficiency_parameter, agent_id, compromise_parameter, verbose)
