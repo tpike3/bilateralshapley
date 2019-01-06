@@ -6,7 +6,7 @@ Example Test Module for Bilateral Shapley Value
 from mesa import Model
 from mesa.time import RandomActivation
 from mesa import Agent
-from BilateralShapley import BSV
+from bilateralshapley import BSV
 import numpy as np
 
 
