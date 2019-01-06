@@ -7,6 +7,10 @@ Core Objects: Model, and Agent.
 """
 import datetime
 
+from .bilateralshapley import BSV
+
+__all__ = ["BSV"]
+
 
 __title__ = 'bilateralshapley'
 __version__ = '0.0.2'
