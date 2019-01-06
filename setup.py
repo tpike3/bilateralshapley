@@ -9,7 +9,7 @@ from codecs import open
 
 #get version from init file
 version = ''
-with open('__init__.py', 'r') as fd:
+with open('bilateralshapley/__init__.py', 'r') as fd:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
                         fd.read(), re.MULTILINE).group(1)
 
@@ -32,7 +32,7 @@ setup(
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
         'Intended Audience :: Science/Research',
         'Programming Language :: Python :: 3 :: Only',
-        'License :: OSI Approved :: MIT License License',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Development Status :: 2 - Pre-Alpha',
         'Natural Language :: English',

@@ -119,7 +119,7 @@ class BSV:
                       * self.comp)
             self.subnets[newname].add_node(each)
             self.subnets[newname].node[each]['preference'] = diff
-            self.orignet[each]['preference'] = diff
+            self.orignet.node[each]['preference'] = diff
             # update reference dictionary with
             # new afFinity value based on alliances
             self.subnets[newname].node[each]['power'] = \
