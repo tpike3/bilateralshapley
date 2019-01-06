@@ -67,7 +67,7 @@ if True module will print out progress of algorithm showing how many iterations 
     from mesa import Model
     from mesa.time import RandomActivation
     from mesa import Agent
-    from BilateralShapley import BSV
+    from bilateralshapley import BSV
     import numpy as np
 
 
