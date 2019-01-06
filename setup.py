@@ -38,11 +38,7 @@ setup(
         'Natural Language :: English',
     ],
     keywords='agent based modeling model ABM simulation multi-agent coaltion game theory',
-    py_modules = ["bilateralshapley", "example"],
+    #py_modules = ["bilateralshapley", "example"],
     #for more elaborate projects with directories of files such as tests etc
-    #packages=find_packages(),
-    #package_data={'mesa': ['visualization/templates/*.html', 'visualization/templates/css/*',
-    #                       'visualization/templates/fonts/*', 'visualization/templates/js/*']},
-    include_package_data=True,
     install_requires=['networkx'],
 )
